@@ -1,0 +1,48 @@
+header {
+  width: 100vw;
+  height: 7vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid white;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  height: 100%;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+h3 {
+  color: white;
+  margin-right: 20px;
+}
+
+p, a {
+  color: white;
+  margin-right: 30px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+  width: 125px;
+}
+
+.cart p {
+  font-size: 15px;
+}

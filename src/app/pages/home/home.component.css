@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 93%;
+}
+
+.content {
+  width: 100%;
+  background-color: white;
+}
+
+.collection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 5vh;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-collection {
+  width: 90%;
+  height: 300px;
+  border-radius: 3px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 720px) {
+  .collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div {
+    margin-top: 30px;
+  }
+
+  img {
+    width: 100%;
+  }
+}

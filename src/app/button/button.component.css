@@ -1,0 +1,15 @@
+button {
+  background-color: #FF4400;
+  width: 600px;
+  height: 45px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  button {
+    width: 400px;
+  }
+}

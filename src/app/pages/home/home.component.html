@@ -1,0 +1,14 @@
+<section class="container">
+  <app-menu></app-menu>
+
+  <div class="content">
+    <app-carousel></app-carousel>
+
+    <section class="collection">
+      <div *ngFor="let brand of collection">
+        <app-title title={{brand.title}}></app-title>
+        <img class="image-collection" src={{brand.image}} alt="">
+      </div>
+    </section>
+  </div>
+</section>

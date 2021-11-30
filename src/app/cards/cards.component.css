@@ -1,0 +1,39 @@
+section {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin-top: 50px;
+}
+
+img {
+  width: 240px;
+  height: 260px;
+}
+
+p {
+  margin-top: 15px;
+}
+
+.price {
+  margin-bottom: 15px;
+  color: gray;
+}
+
+button {
+  background-color: #FF4400;
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  button {
+    width: 400px;
+  }
+}

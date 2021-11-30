@@ -1,0 +1,16 @@
+div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+input {
+  border: none;
+}

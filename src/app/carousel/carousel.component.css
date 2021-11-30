@@ -1,0 +1,11 @@
+.carousel-container {
+  margin-top: 50px;
+  width: 88.8vw;
+}
+
+.image-carousel {
+  margin-top: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 35vh;
+}

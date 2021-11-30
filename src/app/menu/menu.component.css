@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 100%;
+}
+
+.brand-button {
+  height: 10%;
+  border-bottom: 0.5px solid white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
